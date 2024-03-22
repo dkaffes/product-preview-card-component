@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>
+      Frontend Mentor | Product preview card component | Coded by: Dimitris Kaffes</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <!-- Image box of the card -->
+        <div class="image-box">
+          <picture>
+            <source media="(min-width: 40rem)" srcset="./images/image-product-desktop.jpg">
+            <img class="image--img" src="./images/image-product-mobile.jpg" alt="The Channel Gabrielle perfume positioned between green leaves" ></img>
+          </picture>
+        </div>
+        <!-- Text box of the card -->
+        <div class="text-box montserrat-font">
+        <hgroup>
+          <p class="text--subtitle marg-top-zero marg-bott-med" >Perfume</p>
+          <h2 class="text--title fraunces-font marg-top-zero marg-bott-med">Gabrielle Essence Eau De Parfum</h2>
+        </hgroup>
+          <p class="text--description marg-bott-med" >
+            A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+          <!-- Price box of the card -->
+          <div class="price marg-bott-med">
+            <p class="price--current fraunces-font marg-top-zero">$149.99</p>
+            <s  aria-labelledby="price-old-label" class="price--old marg-top-zero">$169.99</s>
+            <p hidden id="price-old-label">The old price of the perfume in strikethrough</p>
+          </div>
+          <!-- Button -->
+          <a class="btn" href="#"><img class="btn--icon" src="./images/icon-cart.svg" alt=""><p class="btn--text marg-top-zero" >Add to Cart</p></a>
+        </div>
+      </div>
+    </main>
+    <!-- Footer - attribution -->
+    <footer class="attribution montserrat-font">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/dkaffes" target="_blank"
+        >Dimitris Kaffes</a
+      >.
+    </footer>
+  </body>
+</html>
