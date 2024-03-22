@@ -69,7 +69,7 @@ Learn more on the Accessibility subject.
 
 - [10 fundamental web accessibility tips for front-end developers](https://www.frontendmentor.io/articles/10-fundamental-web-accessibility-tips-for-frontend-developers-rUurADGxCt) - A useful article wit tips to get you started with web accessibility.
 
-- [MDN reference on the <s> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s) - This helped me learn more on the `<s>` element and its Accessibility concerns.
+- [MDN reference on the `<s>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s) - This helped me learn more on the `<s>` element and its Accessibility concerns.
 
 - [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) - This MDN article from the Accessibility Guide is a great intro in the importance of using the correct HTML elements.
 
