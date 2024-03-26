@@ -166,7 +166,7 @@ body {
   padding: 1.2rem;
 }
 
-.text--subtitle {
+.text--ribbon {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-size: 0.8rem;
@@ -202,15 +202,22 @@ body {
 
 /* Button */
 .btn {
+  width: 100%;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  padding: 0.8rem 1.6rem;
   background-color: var(--dark-cyan);
   border-radius: 8px;
   font-weight: 500;
-  padding: 0.8rem 1.6rem;
-  text-decoration: none;
+  border: none;
+  transition: all 300ms;
+}
+
+.btn--text {
+  color: var(--white);
 }
 
 /* Button active states */
